@@ -1,0 +1,16 @@
+{
+  "name": "enterprise-actions-marketplace",
+  "description": "Marketplace for Enterprise Actions — cross-vendor acting agents built on Anthropic's enterprise-search plugin.",
+  "owner": {
+    "name": "Marco Lobo",
+    "url": "https://github.com/mlobo2012"
+  },
+  "plugins": [
+    {
+      "name": "enterprise-actions",
+      "source": "./",
+      "description": "Enterprise Actions adds six gated acting agents on top of Anthropic's enterprise-search plugin: queue triage, cited replies, meeting-to-work, board sync, stakeholder rollups, and CRM hygiene.",
+      "version": "0.1.0"
+    }
+  ]
+}

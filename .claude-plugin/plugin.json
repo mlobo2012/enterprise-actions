@@ -1,0 +1,12 @@
+{
+  "name": "enterprise-actions",
+  "version": "0.1.0",
+  "description": "Cross-vendor acting agents for triage, replies, meeting follow-through, board sync, stakeholder rollups, and CRM hygiene. Built on Anthropic's enterprise-search plugin.",
+  "author": {
+    "name": "Marco Lobo"
+  },
+  "builtOn": {
+    "name": "Anthropic enterprise-search",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/enterprise-search"
+  }
+}
