@@ -15,8 +15,19 @@ for you: it **triages, synthesizes, drafts, and acts** across Slack, Gmail, Line
 Asana, Notion, Confluence, Intercom, Salesforce, Fireflies and the rest of your stack —
 and it never takes a risky action without your say-so.
 
+## Install
+
+**Claude Cowork (recommended):** download
+**[enterprise-actions-cowork-plugin.zip](https://github.com/mlobo2012/enterprise-actions/releases/latest/download/enterprise-actions-cowork-plugin.zip)**
+(or from the [AI Heroes page](https://www.ai-heroes.co/en-gb/free-tools/enterprise-actions)),
+then in Cowork open **Customize -> create and upload plugins**, upload the zip, and install
+**Enterprise Actions**.
+
+**Claude Code:**
+
 ```
-claude plugins add knowledge-work-plugins/enterprise-actions
+/plugin marketplace add mlobo2012/enterprise-actions
+/plugin install enterprise-actions
 ```
 
 ---
@@ -196,8 +207,15 @@ friction, on your existing Anthropic surface, built on Anthropic's own retrieval
 
 ## Installation
 
+**Claude Cowork (recommended).** Download
+[enterprise-actions-cowork-plugin.zip](https://github.com/mlobo2012/enterprise-actions/releases/latest/download/enterprise-actions-cowork-plugin.zip),
+open Cowork, go to **Customize -> create and upload plugins**, upload the zip, and install it.
+
+**Claude Code.** Run:
+
 ```
-claude plugins add knowledge-work-plugins/enterprise-actions
+/plugin marketplace add mlobo2012/enterprise-actions
+/plugin install enterprise-actions
 ```
 
 Enterprise Actions uses the same tool-agnostic connector model as enterprise-search — it
